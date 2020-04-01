@@ -6,13 +6,13 @@
     <form action="{{ url_for("exo8") }}" method=post enctype=multipart/form-data>
         <div class="row">
             <div class=col>
-                <label for="image">Uploadez votre image</label>
+                <label for="image">Uploadez l'image d'un chiffre à deviner</label>
                 <input type="file" class="form-control" name="image" accept="image/*">
             </div>
             <div class="col-sm-2">
                 <label for="vrai">Vrai valeur</label>
                 <select class="form-control" name="vrai">
-                    <option value="">--</option>
+                    <option value="--">--</option>
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -33,12 +33,8 @@
 
     <h2>==========================</h2>
     <h2 class="{{ valid }}">Prédiction : {{ prediction }}</h2>
-    <h2>Image : <img src="{{ image }}" alt=""></h2>
+    <h2>Image : <img src="{{ image }}" alt="" width="15%"></h2>
     <h2>Vrai valeur : {{ vrai }}</h2>
     <h2>==========================</h2>
-
-
-
-<!--    <img src="static/images/prob_enregistrement_import.png">-->
 
 {% endblock %}

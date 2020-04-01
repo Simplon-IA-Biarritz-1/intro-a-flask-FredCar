@@ -173,7 +173,9 @@ def exo8():
         vrai = "Aucun fichier"
         base64img = ""
 
-    if str(prediction) == str(vrai):
+    if str(vrai) in ["--", "Aucun fichier"]:
+        valid = "text-light"
+    elif str(prediction) == str(vrai):
         valid = "text-success"
     else:
         valid = "text-danger"

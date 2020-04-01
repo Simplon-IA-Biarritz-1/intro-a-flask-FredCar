@@ -2,7 +2,7 @@
 
 Dans le dossier **"Tout-en-un/"**, vous trouverez le fichier **"app.py"**.
 
-### Pour l'éxécuter :
+## Pour l'éxécuter :
 
 - Avec votre console placé vous dans le dossier **"Tout-en-un"**.
 ```bash
@@ -21,7 +21,7 @@ python app.py
 http://127.0.0.1:5000/
 ```
 
-#### Pour profiter pleinement des exercisses 5 et 6 :
+### Pour profiter pleinement des exercisses 5 et 6 :
 Il vous faudra paramètrer votre propre base de donnée sql
 - Nom de la base de données : "exo_flask"
 - Nom de la table : "users"
@@ -31,4 +31,6 @@ Il vous faudra paramètrer votre propre base de donnée sql
 	- prenom
 	- sexe
 	- pseudo
-	
+
+### Pour l'exercice 8:
+Essayez avec ces images : [Lien](https://github.com/myleott/mnist_png/blob/master/mnist_png.tar.gz)
